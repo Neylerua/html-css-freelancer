@@ -10,10 +10,83 @@
 
 /* General */
 
-html {
+html
+{
    box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*, *:before, *:after
+{
    box-sizing: inherit;
+}
+body
+{
+  background-repeat: no-repeat;
+  display: block;
+  background-image: url("../images/header.jpg");
+}
+nav
+{
+  text-align: right;
+}
+#facebook
+{
+  color: #f0454c
+}
+#twitter
+{
+ color:#f0454c
+}
+a
+{
+  color:#465065;
+}
+a:link
+{
+  text-decoration: none;
+}
+a:hover
+{
+  color:#000
+}
+
+.freelancer
+{
+  border-radius: 20px / 10px;
+  bottom: 70px;
+  left: 200px;
+  color:white;
+  background-color: #f0454c;
+  width:230px;
+  height:70px;
+}
+.INT
+{
+  display: flex;
+  top: 170px;
+  position:relative;
+  color:#465065;
+}
+.readmore
+{
+  border-radius: 20px / 10px;
+  position: relative;
+  color:white;
+  background-color: #f0454c;
+  width: 180px;
+  height: 70px;
+}
+article
+{
+  left: 200px;
+  position: relative;
+}
+.block-read
+{
+  left: 200px;
+  top: 300px;
+}
+p
+{
+  color: #465065;
 }
